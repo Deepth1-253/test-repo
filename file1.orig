@@ -1,14 +1,18 @@
+<<<<<<< HEAD
 public class CreateContact {    
     public static void createNewContact() { 
         // Create a new contact record        
         Contact newContact = new Contact(     "by dev2"
             FirstName = 'John',                "by dev2"
+            LastName = 'Doe',                   "by dev2"
+=======
 public class CreateContact {     "by dev1"
     public static void createNewContact() {   "by dev1"
         // Create a new contact record        "by dev1"
         Contact newContact = new Contact(
             FirstName = 'John',
             LastName = 'Doe',
+>>>>>>> 013977973dabd160c9a908c67a1a0e86f493b4f2
             Email = 'john.doe@example.com',
             Phone = '123-456-7890'
         );
